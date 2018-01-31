@@ -1,0 +1,12 @@
+1- git checkout fork2
+2- git rebase master
+3- git checkout master
+4- git merge fork2
+5- git branch -D fork2
+Le fast-forward permet de pointer la branche de dernier commit avec la nouvelle .
+Merge permet d’avancer la branche courante en incorporant le travail d’une autre branche.
+Cette opération joint et fusionne les deux points de départ de nos deux branches dans un commit de fusion qui est visible dans le graphe de l'historique (gitk)
+Rebase rejoue sur master  les commits de fork2 dans l’ordre d’apparition à partir du point de séparation.
+C’est comme si tous les travaux de fork2 avaient été réalisés sur master .
+Rebase est transparent dans l’historique et permet de conserver un graphe linéaire.
+Rebase permet de raptrier les differents commit qui ont ete faits sur fork2 pour pouvoir ensuite faire un fast-forward et d'avoir un historique clean donc on peut maintenat supprimer fork2 qui n'a plus d'utilite
