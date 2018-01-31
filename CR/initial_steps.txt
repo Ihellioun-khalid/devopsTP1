@@ -1,0 +1,9 @@
+1- git clone git@github.com:Ihellioun-khalid/devopsTP1.git
+2- touch AUTHORS
+3- nano AUTHORS
+4- git add .
+5- git status
+6- git commit -m "Etape3"
+7- git push
+l'utilisation de la commande clone permet une synchronisation directe entre le depot serveur et le depot local donc pas de messages d'erreur upstream au moment de push .
+
