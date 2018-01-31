@@ -1,0 +1,4 @@
+on a ajoute un fichier Etape14.txt dans la branche master et on fait un commit.
+on se positionne dans la branche fork1 et on modifie Etape14.txt et on fait un commit
+on se positionne dans la branche master et on fait le merge ce qui declenche un erreur de conflit due l'ecriture paralelle dans le meme fichier .
+la resolution de ce conflit est faite manuelement .   
