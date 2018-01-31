@@ -1,0 +1,3 @@
+*/tmp: est un role qui permet de ignorer tout les fichiers dans le repertoire tmp
+/tmp: est un role pour ignorer le fichier tmp
+*.pdf: est un role pour ignorer tout les fichiers avec l'extension.pdf
