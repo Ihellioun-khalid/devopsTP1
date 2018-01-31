@@ -1,0 +1,2 @@
+tout d'abord il faut nettoyer la branche fork1: on a fait git add -A puis git commit -m 
+on se positionne dans la branch master apres on fait le merge avec la commmande git merge fork1 . 
