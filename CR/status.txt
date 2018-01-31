@@ -1,0 +1,5 @@
+on a trois categories :
+Untracked files : les fichiers ne sont pas traquèes (ne sont pas dans l'index)
+Changes not staged for commit : on fait add pour ajouter les fichiers dans l'index (ne sont pas encore dans le depot local)
+Chnages to be commited : on fait commit les fichiers sont dans notre depot local )
+Non le fichier ne peut pas apparaitre dans deux categories au meme temps si le fichier est dans le depot locale elle n'est plus dans l'index
