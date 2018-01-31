@@ -1,0 +1,5 @@
+1- git branch fork1
+2- git branch
+3- git status [ou bien git branch (on a une * devant la branch courant)]
+4- git checkout "nom-de-la-branch"
+5- les fichiers ajoutèes dans fork1 n'existent pas dans la branch master
