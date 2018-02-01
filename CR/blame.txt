@@ -1,0 +1,3 @@
+git blame rebase.txt affiche une liste du dernier sha du commit, de la date et de l'auteur de chaque ligne du fichier.
+git blame -e rebase.txt affiche en plus l'email de l'auteur
+Cette commande est utile pour voir qui a crée une erreur si le fichier revient sur une ligne ou qu'une erreur casse la compilation.
