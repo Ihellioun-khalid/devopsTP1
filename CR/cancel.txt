@@ -1,1 +1,2 @@
-git revert HEAD permet d'annuler le dernier commit .
+etape 15:git revert HEAD permet d'annuler le dernier commit .
+etape 16:git checkout -- conflit.txt permet de restaurer le contenu dans l'etat precedent avant le commit
