@@ -1,0 +1,5 @@
+1-git stash prend l'état en cours de notre répertoire de travail, c'est-à-dire conflit.txt modifié et l'index, et l'enregistre dans la pile des modifications non finies que nous pouvons réappliquer à n'importe quel moment.
+2-le stash rend la branch master dans l'etat propre ce qui nous permet de passer au fork1
+3-le fichier conflit.txt ne contient pas les modifications faites precedamment.
+4-git stash list
+5-git stash apply num_stash(sha-1)

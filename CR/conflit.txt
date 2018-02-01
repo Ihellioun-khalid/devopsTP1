@@ -2,3 +2,6 @@ on a ajoute un fichier Etape14.txt dans la branche master et on fait un commit.
 on se positionne dans la branche fork1 et on modifie Etape14.txt et on fait un commit
 on se positionne dans la branche master et on fait le merge ce qui declenche un erreur de conflit due l'ecriture paralelle dans le meme fichier .
 la resolution de ce conflit est faite manuelement .   
+lorsque on travaille dans la branche master, les choses sont dans un état instable mais nous voulons changer de branche pour travailler momentanément sur fork1.
+Le problème est que nous ne voulons pas valider le travail fait dans master pour y revenir plus tard. La réponse à cette problématique est la commande git stash.
+git stash prend l'état en cours de notre répertoire de travail, c'est-à-dire les fichiers modifiés et l'index, et l'enregistre dans la pile des modifications non finies que nous pouvons réappliquer à n'importe quel moment.
